@@ -1,0 +1,76 @@
+.container {
+    width: 1250px;
+    margin: auto;
+    outline: solid 2px blue;
+
+}
+.header-flex{
+    display:flex;
+    justify-content:space-between;
+     height: 80px;
+
+}
+.banner-flex {
+    display:flex;
+    justify-content:center;
+    height: 300px;
+}
+.choose-flex{
+    display: flex;
+    flex-wrap: wrap;
+}
+.choose-flex .choose-image{
+    width: 550px;
+    outline: solid 1px red;
+    height:840px;
+}
+.choose-flex .choose-image img {
+    width: 550px;
+    height:840px;
+}
+.service-flex {
+    display: flex;
+    flex-wrap: wrap;
+}
+.service-flex .service-1 {
+    width:33.33%;
+    height: 520px;
+    outline: solid 1px red;
+}
+.callaction-flex {
+    display:flex;
+    justify-content:center;
+    height: 420px;
+}
+.feature-flex{
+    display: flex;
+    flex-wrap: wrap;
+}
+.feature-flex .features{
+    width: 60%;
+    height:1000px;
+    outline: solid 1px orange;
+}
+.blogs-flex {
+    display: flex;
+    flex-wrap: wrap;
+}
+.blogs-flex .blogs-1 {
+    width:25%;
+    height: 620px;
+    outline: solid 1px orange;
+}
+.footer-flex{
+    display:flex;
+    flex-wrap: wrap;
+}
+.footer-flex .footer-1 {
+    width:25%;
+    height: 320px;
+    outline: solid 1px green;
+}
+.legal-flex{
+    display:flex;
+    justify-content: center;
+    height: 100px;
+}
