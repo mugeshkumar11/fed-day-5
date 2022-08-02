@@ -48,8 +48,12 @@
 }
 .feature-flex .features{
     width: 60%;
-    height:1000px;
+    height:340px;
     outline: solid 1px orange;
+}
+.feature-flex .image{
+    width: 40%;
+    height:340px;
 }
 .blogs-flex {
     display: flex;
